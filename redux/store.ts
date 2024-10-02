@@ -6,7 +6,7 @@ import rootReducer from "./reducers/rootReducer";
 import rootSaga from "./sagas/rootSaga";
 
 const client = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://bytehive-assignment-theta.vercel.app/",
   responseType: "json",
 });
 
